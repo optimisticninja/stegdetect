@@ -17,11 +17,21 @@ This repo has been updated to compile cleanly on Ubuntu since the original proje
 
 Tested on Ubuntu 16.04 and 18.04 only(17.x likely works though)
 
+### Requirements
+
+* autotools (`sudo apt install autotools`)
+    * If you receive an error aclocal-1.16 can't be found, modify `./configure` to the following
+
+```
+...
+am__api_version='1.16'
+```
+
 ### Building on 64-bit Systemgs
 
 ```bash
-    $ linux32 ./configure
-    $ linux32 make
+    $ ./configure
+    $ make
 ```
 
 You can now run stegdetect from the local directory: `./stegdetect`

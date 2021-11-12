@@ -93,7 +93,7 @@ struct  magic *magic;	/* array of magic entries		*/
 const char *magicfile = 0;	/* where the magic is		*/
 const char *default_magicfile = MAGIC;
 
-char *progname;		/* used throughout 			*/
+extern char *progname;		/* used throughout 			*/
 int lineno;		/* line number in the magic file	*/
 
 

@@ -1,4 +1,4 @@
-/* config.h.in.  Generated from configure.in by autoheader.  */
+/* config.h.in.  Generated from configure.ac by autoheader.  */
 /* Define to the path where the rules.ini file can be found */
 #undef _PATH_RULES
 
